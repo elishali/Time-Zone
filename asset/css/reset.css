@@ -11,7 +11,9 @@ ul {
   list-style: none;
 }
 button {
-  border: none;
+  border: 0px;
+  outline: 0px;
+  background: transparent;
 }
 input {
   outline: none;
