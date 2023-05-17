@@ -97,9 +97,17 @@ header .navbar a:hover {
 .banner-row {
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .banner-row img {
   height: 100%;
+}
+.banner-row img {
+  position: relative;
+  transition: all 0.6s ease-out 0s;
+}
+.banner-row img:hover {
+  transform: scale(1.1);
 }
 .banner-text h1 {
   font-size: 96px;
@@ -113,6 +121,70 @@ header .navbar a:hover {
   line-height: 130%;
 }
 /* ----END OF BANNER---- */
+
+/* ------MAIN------ */
+
+/* -----SECTION-1----- */
+.newarrivals-section {
+  width: 100%;
+  padding: 100px 0px;
+}
+.newarrivals-section h2 {
+  padding: 50px 0px;
+  font-size: 50px;
+  font-family: 700;
+}
+.newarrivals-section .new-arrivals {
+  display: flex;
+}
+.new-arrivals .desc {
+  text-align: center;
+}
+.new-arrivals .desc h3 {
+  font-size: 24px;
+  padding: 24px 0px;
+  color: #444444;
+}
+.new-arrivals .desc span {
+  color: var(--red-500);
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+}
+.new-arrivals .new-image {
+  padding: 0px 15px;
+}
+.image {
+  overflow: hidden;
+}
+.new-arrivals .new-image img {
+  position: relative;
+  width: 100%;
+  transition: all 0.4s ease-out 0s;
+}
+.new-image img:hover {
+  transform: scale(1.1);
+}
+/* ----END OF SECTION-1---- */
+
+/* -----SECTION-2----- */
+.galery {
+  display: flex;
+  padding: 60px 0px;
+  justify-content: space-between;
+}
+
+.galery-image img {
+  padding: 10px 0px;
+  position: relative;
+  transition: all 0.4s ease-out 0s;
+}
+.galery-image img:hover {
+  transform: scale(0.9);
+}
+
+/* ----END OF SECTION-2---- */
+/* ----END OF MAIN---- */
 
 @media screen and (max-width: 1200px) {
   #Banner {
@@ -182,7 +254,7 @@ header .navbar a:hover {
   }
 }
 @media screen and (max-width: 576px) {
-  header nav{
+  header nav {
     width: 85%;
   }
   #Banner {
