@@ -133,7 +133,11 @@ header .navbar a:hover {
     background: white;
     left: 30px;
     padding: 20px 30px;
+    z-index: 1000;
   }
+  /* header nav .visible{
+    display: block;
+  } */
   header .navbar {
     flex-direction: column;
   }
@@ -178,14 +182,17 @@ header .navbar a:hover {
   }
 }
 @media screen and (max-width: 576px) {
+  header nav{
+    width: 85%;
+  }
   #Banner {
-    padding: 50px 0px 30px;
-    box-sizing: content-box;
+    min-height: 30vh;
+    padding-top: 50px;
   }
-  #Banner .container{
-height: auto;
+  #Banner .container {
+    height: auto;
   }
-  header .header-right .icons{
+  header .header-right .icons {
     transform: translateY(70px) translateX(70px);
   }
   .banner-text h1 {
