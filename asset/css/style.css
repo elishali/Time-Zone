@@ -229,7 +229,8 @@ header .navbar a:hover {
   left: 0px;
   bottom: 0px;
   text-align: center;
-  padding: 25px 0px;
+  color: white;
+  padding: 22px 0px;
   background-color: var(--red-500);
 }
 .popular-img {
