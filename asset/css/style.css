@@ -209,6 +209,17 @@ header .navbar a:hover {
 .img-cap {
   text-align: center;
 }
+.favorit-items {
+  position: relative;
+  color: #333333;
+  font-size: 30px;
+  cursor: pointer;
+}
+.fa-heart {
+  position: absolute;
+  right: 20px;
+  bottom: 370px;
+}
 .popular-caption {
   text-align: center;
 }
