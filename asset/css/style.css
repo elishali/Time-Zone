@@ -206,8 +206,23 @@ header .navbar a:hover {
   margin-bottom: 15px;
   padding: 0px 220px;
 }
+
+.popular-items .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .popular-flex {
+  width: calc(100% / 3);
+  padding: 50px 0px;
+}
+.popular-caption {
+  border-top: 3px solid var(--red-500);
+}
 .img-cap {
   text-align: center;
+  padding: 20px 0px;
+  background-color: var(--red-500);
 }
 .favorit-items {
   position: relative;
@@ -229,16 +244,6 @@ header .navbar a:hover {
 }
 .popular-caption h3 {
   padding: 20px 0px;
-}
-
-.popular-items .row {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.row .popular-flex {
-  width: calc(100% / 3);
-  padding: 50px 0px;
 }
 /* ----END OF SECTION-3---- */
 
