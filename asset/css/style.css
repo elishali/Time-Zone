@@ -184,6 +184,8 @@ header .navbar a:hover {
 }
 
 /* ----END OF SECTION-2---- */
+
+/* -----SECTION-3----- */
 .popular-items {
   padding: 60px 0px;
 }
@@ -227,6 +229,8 @@ header .navbar a:hover {
   width: calc(100% / 3);
   padding: 50px 0px;
 }
+/* ----END OF SECTION-3---- */
+
 /* ----END OF MAIN---- */
 
 @media screen and (max-width: 1200px) {
