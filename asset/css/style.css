@@ -184,6 +184,49 @@ header .navbar a:hover {
 }
 
 /* ----END OF SECTION-2---- */
+.popular-items {
+  padding: 60px 0px;
+}
+.popular-items .row-center {
+  text-align: center;
+  padding: 50px 0px;
+}
+.section-tittle h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 14px 0px;
+}
+.section-tittle p {
+  font-family: "Roboto", sans-serif;
+  color: #777;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  padding: 0px 220px;
+}
+.img-cap {
+  text-align: center;
+}
+.popular-caption {
+  text-align: center;
+}
+.popular-caption {
+  color: #444444;
+  font-size: 20px;
+}
+.popular-caption h3 {
+  padding: 20px 0px;
+}
+
+.popular-items .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .popular-flex {
+  width: calc(100% / 3);
+  padding: 50px 0px;
+}
 /* ----END OF MAIN---- */
 
 @media screen and (max-width: 1200px) {
