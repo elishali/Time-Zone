@@ -411,7 +411,84 @@ header .navbar a:hover {
 /* ----END OF MAIN---- */
 
 /* -----FOOTER----- */
+.footer-row {
+  width: 100%;
+  display: flex;
+  padding: 80px 0px;
+}
+.footer-title {
+  width: 40%;
+}
+.footer-title p {
+  color: #8a8f9a;
+  font-family: "Roboto", sans-serif;
+  padding-top: 40px;
+  line-height: 180%;
+}
+.article-link {
+  width: 40%;
+  padding-left: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.article-link h3 {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.article-link li {
+  color: #939eb1;
+  line-height: 220%;
+  transition: all 0.3s;
+  transform: rotateY(0deg);
+}
+.article-link li:hover {
+  color: var(--red-500); /* transform: scale(1.02); */
+  transform: rotateY(15deg);
+}
+.footer-icons-desc {
+  position: relative;
+  display: flex;
+  padding: 0px 0px 50px 0px;
+}
+.footer-desc p {
+  font-family: "Roboto", sans-serif;
+  color: #939eb1;
+}
+.footer-desc i,
+.footer-desc a {
+  color: var(--red-500);
+}
 
+.footer-icons {
+  position: absolute;
+  right: 0px;
+  opacity: 1;
+}
+.footer-icons i {
+  padding: 0px 10px;
+}
+.footer-icons:hover {
+  opacity: 0;
+}
+.footer-icons-hover {
+  position: absolute;
+  right: 0px;
+  opacity: 0;
+}
+.footer-icons-hover i {
+  padding: 0px 10px;
+}
+.footer-icons-hover:hover {
+  color: #ea0000;
+  opacity: 1;
+}
+.up-icon{
+  position: absolute;
+  font-size: 50px;
+  color: var(--red-500);
+  right: 40px;
+  padding: 30px 0px;
+
+}
 /* -----END OF FOOTER----- */
 @media screen and (max-width: 1200px) {
   #Banner {
