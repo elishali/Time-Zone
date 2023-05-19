@@ -172,12 +172,11 @@ header .navbar a:hover {
 /* ----END OF SECTION-1---- */
 
 /* -----SECTION-2----- */
+
 .galery {
   display: flex;
   padding: 60px 0px;
-  justify-content: space-between;
 }
-
 .galery-image img {
   padding: 10px 0px;
   position: relative;
@@ -210,7 +209,6 @@ header .navbar a:hover {
   margin-bottom: 15px;
   padding: 0px 220px;
 }
-
 .popular-items .row {
   width: 100%;
   display: flex;
@@ -275,6 +273,45 @@ header .navbar a:hover {
   padding: 20px 0px;
 }
 /* ----END OF SECTION-3---- */
+
+/* ----SECTION-4---- */
+.video-container {
+  display: flex;
+  position: relative;
+  padding: 60px 0px;
+}
+.video-img img {
+  width: 100%;
+}
+.red-content {
+  position: absolute;
+  background-color: var(--red-500);
+  width: 30%;
+  height: 150px;
+  bottom: 64px;
+  left: 0px;
+}
+.red-content h3 {
+  color: white;
+  padding: 15% 15%;
+  font-weight: 400;
+}
+.red-content .arrow-right {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  left: 70%;
+  top: 42%;
+}
+.play {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  font-weight: 85;
+  left: 45%;
+  top: 45%;
+}
+/* ----END OF SECTION-4---- */
 
 /* ----END OF MAIN---- */
 
