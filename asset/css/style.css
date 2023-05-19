@@ -457,16 +457,13 @@ header .navbar a:hover {
 .footer-desc a {
   color: var(--red-500);
 }
+
 .footer-icons {
   position: absolute;
   right: 0px;
-  opacity: 1;
 }
 .footer-icons i {
   padding: 0px 10px;
-}
-.footer-icons:hover {
-  opacity: 0;
 }
 .footer-icons-hover {
   position: absolute;
@@ -477,16 +474,15 @@ header .navbar a:hover {
   padding: 0px 10px;
 }
 .footer-icons-hover:hover {
-  color: #ea0000;
+  color: var(--red-500);
   opacity: 1;
 }
-.up-icon{
+.up-icon {
   position: absolute;
-  font-size: 50px;
+  font-size: 60px;
   color: var(--red-500);
   right: 40px;
   padding: 30px 0px;
-
 }
 /* -----END OF FOOTER----- */
 @media screen and (max-width: 1200px) {
