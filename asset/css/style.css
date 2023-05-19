@@ -136,7 +136,7 @@ header .navbar a:hover {
   padding: 100px 0px;
 }
 .newarrivals-section h2 {
-  padding: 50px 0px;
+  padding: 50px 12px;
   font-size: 50px;
   font-family: 700;
 }
@@ -279,7 +279,7 @@ header .navbar a:hover {
 .video-container {
   display: flex;
   position: relative;
-  padding: 60px 0px;
+  padding: 80px 0px;
 }
 .video-img img {
   width: 100%;
@@ -289,7 +289,7 @@ header .navbar a:hover {
   background-color: var(--red-500);
   width: 30%;
   height: 150px;
-  bottom: 64px;
+  bottom: 84px;
   left: 0px;
 }
 .red-content h3 {
@@ -317,7 +317,7 @@ header .navbar a:hover {
 /* ----SECTION-5---- */
 #Banner-1 {
   height: 100vh;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 .banner-row-1 {
   display: flex;
@@ -357,7 +357,7 @@ header .navbar a:hover {
   height: 90%;
 }
 .banner-text-2 {
-  padding: 0px 8%;
+  padding-left: 12%;
 }
 .banner-text-2 h2 {
   text-align: center;
@@ -377,11 +377,42 @@ header .navbar a:hover {
 /* ----END OF SECTION-6---- */
 
 /* ----SECTION-7---- */
-
+.red-package {
+  padding: 100px 0px;
+}
+.red-package .red-cub {
+  display: flex;
+  width: 100%;
+  height: 260px;
+  background-color: var(--red-500);
+}
+.red-cub .desc {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  padding: 30px 30px;
+  margin: 0px 40px;
+}
+.red-cub .desc span {
+  font-size: 40px;
+  color: white;
+  line-height: 200%;
+}
+.red-cub .desc h5 {
+  font-size: 20px;
+  color: white;
+  line-height: 200%;
+}
+.red-cub .desc p {
+  font-size: 16px;
+  color: rgb(212, 209, 209);
+  line-height: 200%;
+}
 /* ----END OF SECTION-7---- */
-
 /* ----END OF MAIN---- */
 
+/* -----FOOTER----- */
+
+/* -----END OF FOOTER----- */
 @media screen and (max-width: 1200px) {
   #Banner {
     height: 70vh;
