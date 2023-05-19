@@ -93,6 +93,7 @@ header .navbar a:hover {
   color: var(--red-500);
 }
 /* ----END OF HEADER---- */
+
 /* ------BANNER------ */
 #Banner {
   background-color: #f0f0f2;
@@ -119,6 +120,8 @@ header .navbar a:hover {
   text-transform: capitalize;
 }
 .banner-text p {
+  width: 70%;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   color: #212025;
   padding: 40px 0px;
@@ -127,7 +130,6 @@ header .navbar a:hover {
 /* ----END OF BANNER---- */
 
 /* ------MAIN------ */
-
 /* -----SECTION-1----- */
 .newarrivals-section {
   width: 100%;
@@ -172,7 +174,6 @@ header .navbar a:hover {
 /* ----END OF SECTION-1---- */
 
 /* -----SECTION-2----- */
-
 .galery {
   display: flex;
   padding: 60px 0px;
@@ -185,11 +186,11 @@ header .navbar a:hover {
 .galery-image img:hover {
   transform: scale(0.9);
 }
-
 /* ----END OF SECTION-2---- */
 
 /* -----SECTION-3----- */
 .popular-items {
+  width: 100%;
   padding: 60px 0px;
 }
 .popular-items .row-center {
@@ -207,7 +208,7 @@ header .navbar a:hover {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
-  padding: 0px 220px;
+  padding: 0px 22%;
 }
 .popular-items .row {
   width: 100%;
@@ -312,6 +313,72 @@ header .navbar a:hover {
   top: 45%;
 }
 /* ----END OF SECTION-4---- */
+
+/* ----SECTION-5---- */
+#Banner-1 {
+  height: 100vh;
+  padding: 60px 0px;
+}
+.banner-row-1 {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.banner-row-1 img {
+  height: 90%;
+}
+.banner-text-1 h2 {
+  font-size: 50px;
+  color: #0b1c39;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.banner-text-1 p {
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #777;
+  padding: 40px 0px;
+  line-height: 200%;
+}
+/* ----END OF SECTION-5---- */
+
+/* ----SECTION-6---- */
+#Banner-2 {
+  height: 100vh;
+  padding: 50px 0px;
+}
+.banner-row-2 {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.banner-row-2 img {
+  height: 90%;
+}
+.banner-text-2 {
+  padding: 0px 8%;
+}
+.banner-text-2 h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #0b1c39;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.banner-text-2 p {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #777;
+  padding: 40px 0px;
+  line-height: 200%;
+}
+/* ----END OF SECTION-6---- */
+
+/* ----SECTION-7---- */
+
+/* ----END OF SECTION-7---- */
 
 /* ----END OF MAIN---- */
 
