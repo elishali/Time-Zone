@@ -19,9 +19,8 @@
     <link rel="stylesheet" href="./asset/css/style.css" />
   </head>
 
-  <body>
+  <body id="up">
     <header>
-      <div id="home"></div>
       <div class="head-inner">
         <div>
           <a href=""><img src="./asset/image/Logo/logo.png" alt="Logo" /></a>
@@ -90,7 +89,7 @@
         <div class="container">
           <h2>New Arrivals</h2>
           <div class="new-arrivals">
-            <article class="new-image">
+            <article class="new-arrivals-item">
               <div class="image">
                 <img src="./asset/image/new_product1.png" alt="" />
               </div>
@@ -99,7 +98,7 @@
                 <span>$ 45,743</span>
               </div>
             </article>
-            <article class="new-image">
+            <article class="new-arrivals-item">
               <div class="image">
                 <img src="./asset/image/new_product2.png" alt="" />
               </div>
@@ -108,7 +107,7 @@
                 <span>$ 45,743</span>
               </div>
             </article>
-            <article class="new-image">
+            <article class="new-arrivals-item">
               <div class="image">
                 <img src="./asset/image/new_product3.png" alt="" />
               </div>
@@ -122,57 +121,33 @@
       </section>
 
       <section class="galery">
-        <article class="galery-image">
-          <div class="g-img">
-            <img
-              src="./asset/image/gallery1.png"
-              alt=""
-              width="97%"
-              height="700px"
-            />
+        <div class="container-ful">
+          <div class="galery-item">
+            <img src="./asset/image/gallery1.png" alt="" />
           </div>
-        </article>
-        <article class="galery-image">
-          <div class="g-img">
-            <img
-              src="./asset/image/gallery2.png"
-              alt=""
-              width="95%"
-              height="700px"
-            />
+          <div class="galery-item">
+            <img src="./asset/image/gallery2.png" alt="" />
           </div>
-        </article>
-        <article class="galery-image">
-          <div class="g-img">
-            <img
-              src="./asset/image/gallery3.png"
-              alt=""
-              width="100%"
-              height="346px"
-            />
+          <div class="galery-item">
+            <div class="galery-item-sub">
+              <img src="./asset/image/gallery3.png" alt="" />
+            </div>
+            <div class="galery-item-sub">
+              <img src="./asset/image/gallery4.png" alt="" />
+            </div>
           </div>
-          <div class="g-img">
-            <img
-              src="./asset/image/gallery4.png"
-              alt=""
-              width="100%"
-              height="346px"
-            />
-          </div>
-        </article>
+        </div>
       </section>
 
       <section class="popular-items">
         <div class="container">
-          <div class="row-center">
-            <div class="section-tittle">
-              <h2>Popular Items</h2>
-              <p>
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                gravida.
-              </p>
-            </div>
+          <div class="text-center section-tittle">
+            <h2>Popular Items</h2>
+            <p>
+              Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+              gravida.
+            </p>
           </div>
           <div class="row">
             <article class="popular-flex">
@@ -278,7 +253,7 @@
               </div>
             </article>
           </div>
-          <div class="row-center">
+          <div class="btn-center">
             <a href="#" class="btn btn-danger">View More Products</a>
           </div>
         </div>
@@ -409,16 +384,10 @@
             <a href="#"><i class="fa-brands fa-behance"></i></a>
             <a href="#"><i class="fa-solid fa-globe"></i></a>
           </div>
-          <div class="footer-icons-hover">
-            <a href="#"><i class="fa-brands fa-twitter fa-flip"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook-f fa-flip"></i></a>
-            <a href="#"><i class="fa-brands fa-behance fa-flip"></i></a>
-            <a href="#"><i class="fa-solid fa-globe fa-flip"></i></a>
-          </div>
         </div>
       </div>
       <div class="up-icon">
-        <a href="#"><i class="fa-solid fa-circle-up"></i></a>
+        <a href="#up"><i class="fa-solid fa-circle-up"></i></a>
       </div>
     </footer>
     <!-- <script>

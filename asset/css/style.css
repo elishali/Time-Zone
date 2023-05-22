@@ -157,34 +157,60 @@ header .navbar a:hover {
   font-weight: 500;
   display: block;
 }
-.new-arrivals .new-image {
+.new-arrivals .new-arrivals-item {
+  width: calc(100% / 3);
   padding: 0px 15px;
 }
 .image {
   overflow: hidden;
 }
-.new-arrivals .new-image img {
+.new-arrivals .new-arrivals-item img {
   position: relative;
   width: 100%;
   transition: all 0.4s ease-out 0s;
 }
-.new-image img:hover {
+.new-arrivals-item img:hover {
   transform: scale(1.1);
 }
 /* ----END OF SECTION-1---- */
 
 /* -----SECTION-2----- */
-.galery {
+
+.galery .container-ful {
+  width: 100%;
   display: flex;
+  column-gap: 20px;
   padding: 60px 0px;
 }
-.galery-image img {
-  padding: 10px 0px;
-  position: relative;
-  transition: all 0.4s ease-out 0s;
+.galery .galery-item {
+  overflow: hidden;
+  height: 700px;
 }
-.galery-image img:hover {
-  transform: scale(0.9);
+.galery .galery-item:nth-child(1) {
+  flex-grow: 2;
+}
+.galery .galery-item:nth-child(2) {
+  flex-grow: 1;
+}
+.galery .galery-item:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.galery .galery-item img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.galery .galery-item img:hover {
+  transform: scale(1);
+}
+.galery .galery-item .galery-item-sub {
+  height: calc(50% - 10px);
+  width: 100%;
+  overflow: hidden;
 }
 /* ----END OF SECTION-2---- */
 
@@ -193,7 +219,7 @@ header .navbar a:hover {
   width: 100%;
   padding: 60px 0px;
 }
-.popular-items .row-center {
+.popular-items .text-center {
   text-align: center;
   padding: 50px 0px;
 }
@@ -211,7 +237,6 @@ header .navbar a:hover {
   padding: 0px 22%;
 }
 .popular-items .row {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -231,7 +256,9 @@ header .navbar a:hover {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 100%;
+  bottom: 0px;
+  transform: translateY(100%);
+  z-index: 10;
   text-align: center;
   color: white;
   padding: 25px 0px;
@@ -239,14 +266,18 @@ header .navbar a:hover {
   opacity: 0;
   transition: all 0.4s ease-out 0s;
 }
+.popular-img img {
+  width: 100%;
+}
 .popular-img:hover .img-cap {
   visibility: visible;
   opacity: 1;
-  top: 84.5%;
+  transform: translateY(0px);
   cursor: pointer;
 }
 .popular-img {
   position: relative;
+  overflow: hidden;
 }
 .favorit-items {
   position: absolute;
@@ -255,7 +286,7 @@ header .navbar a:hover {
   cursor: pointer;
   opacity: 0;
   right: 20px;
-  top: 0px;
+  top: 15px;
 }
 .popular-img:hover .favorit-items {
   visibility: visible;
@@ -264,7 +295,6 @@ header .navbar a:hover {
 }
 .popular-caption {
   text-align: center;
-  background-color: white;
 }
 .popular-caption {
   color: #444444;
@@ -272,6 +302,10 @@ header .navbar a:hover {
 }
 .popular-caption h3 {
   padding: 20px 0px;
+}
+.popular-items .btn-center {
+  text-align: center;
+  padding: 50px 0px;
 }
 /* ----END OF SECTION-3---- */
 
@@ -444,8 +478,8 @@ header .navbar a:hover {
   transform: rotateY(15deg);
 }
 .footer-icons-desc {
-  position: relative;
   display: flex;
+  justify-content: space-between;
   padding: 0px 0px 50px 0px;
 }
 .footer-desc p {
@@ -456,25 +490,8 @@ header .navbar a:hover {
 .footer-desc a {
   color: var(--red-500);
 }
-
-.footer-icons {
-  position: absolute;
-  right: 0px;
-}
 .footer-icons i {
   padding: 0px 10px;
-}
-.footer-icons-hover {
-  position: absolute;
-  right: 0px;
-  opacity: 0;
-}
-.footer-icons-hover i {
-  padding: 0px 10px;
-}
-.footer-icons-hover:hover {
-  color: var(--red-500);
-  opacity: 1;
 }
 .up-icon {
   position: absolute;
@@ -482,6 +499,14 @@ header .navbar a:hover {
   color: var(--red-500);
   right: 40px;
   padding: 30px 0px;
+}
+.footer-icons i {
+  padding: 0px 10px;
+  transition: 0.5s;
+}
+.footer-icons i:hover {
+  transform: rotateY(180deg);
+  color: #ea0000;
 }
 /* -----END OF FOOTER----- */
 @media screen and (max-width: 1200px) {
